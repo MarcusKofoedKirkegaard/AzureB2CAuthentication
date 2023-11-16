@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/azure-ad-b2c.props" />
+</Project>

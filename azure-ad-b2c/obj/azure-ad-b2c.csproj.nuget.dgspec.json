@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/marcus/Desktop/RazorB2CTestApp/azure-ad-b2c/azure-ad-b2c.csproj": {}
+  },
+  "projects": {
+    "/Users/marcus/Desktop/RazorB2CTestApp/azure-ad-b2c/azure-ad-b2c.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcus/Desktop/RazorB2CTestApp/azure-ad-b2c/azure-ad-b2c.csproj",
+        "projectName": "azure-ad-b2c",
+        "projectPath": "/Users/marcus/Desktop/RazorB2CTestApp/azure-ad-b2c/azure-ad-b2c.csproj",
+        "packagesPath": "/Users/marcus/.nuget/packages/",
+        "outputPath": "/Users/marcus/Desktop/RazorB2CTestApp/azure-ad-b2c/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[2.15.3, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[2.15.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

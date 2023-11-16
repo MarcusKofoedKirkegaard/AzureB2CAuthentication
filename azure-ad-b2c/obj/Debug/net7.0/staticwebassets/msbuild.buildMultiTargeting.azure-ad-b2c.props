@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/azure-ad-b2c.props" />
+</Project>
